@@ -6,7 +6,7 @@ from IPython.display import display, Markdown
 # Function to evaluate a sentence and extract score and remark
 def evaluate_sentence(sentence):
     print("exercise on vocabulary")
-    genai.configure(api_key="AIzaSyA8Wsh5G0Coz5Mx1-FDcmX0I5uGrwcr6gc")
+    genai.configure(api_key="your api")
 
     prompt = f"This is my sentence: '{sentence}'. I need a score out of 100 and a remark, just a few words like 'suggest this word can be this word'. in the format score:<just the score like 50,70>, remark:<remark>"
 
