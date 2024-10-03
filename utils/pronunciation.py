@@ -5,7 +5,7 @@ import pronouncing
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import torch
 
-model_dir = r"C:\Users\DHARSHAN BALAJI\Downloads\objdetectioproject\grammar project\model weights\wav2vec2_processor"
+model_dir = r"..\model weights\wav2vec2_processor"
 
 if not os.path.exists(model_dir):
     raise FileNotFoundError(f"Model directory does not exist: {model_dir}")
