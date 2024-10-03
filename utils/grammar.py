@@ -54,7 +54,7 @@ def grammar_que(details):
     
     downloaded_images = download_images(interest)
 
-    genai.configure(api_key="AIzaSyBuRJQnEc7IpSXyuVDzf-xmwenZNb7CTpQ")
+    genai.configure(api_key="your api")
 
     for m in genai.list_models():
         if 'generateContent' in m.supported_generation_methods:
