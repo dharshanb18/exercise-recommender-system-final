@@ -21,7 +21,7 @@ def select_exercise_category(batch_data):
 # Function to log results in a CSV file
 def log_exercise_result(exercise_number, category, score, remarks):
     # result_path = os.path.join("data", "exercise_res.csv")
-    result_path = r'C:\Users\DHARSHAN BALAJI\Downloads\objdetectioproject\grammar project\data\exercise_res.csv'
+    result_path = r'..\data\exercise_res.csv'
     
     # Append results to the CSV file
     df = pd.DataFrame([[exercise_number, category, score, remarks]], 
@@ -29,7 +29,7 @@ def log_exercise_result(exercise_number, category, score, remarks):
     df.to_csv(result_path, mode='a', header=not os.path.exists(result_path), index=False)
 
 
-model_dir = r"C:\Users\DHARSHAN BALAJI\Downloads\objdetectioproject\grammar project\model weights\wav2vec2_processor"
+model_dir = r"..\model weights\wav2vec2_processor"
 
 
 def main():
@@ -39,7 +39,7 @@ def main():
     age, country, interests = get_user_details()
     details = f"Age: {age}, Country: {country}, Interest: {interests}"
     # Load data from utterance_data.xls
-    data_path = r'C:\Users\DHARSHAN BALAJI\Downloads\objdetectioproject\grammar project\data\utterance_data.xlsx'
+    data_path = r'..\data\utterance_data.xlsx'
     df = pd.read_excel(data_path)
 
     # Process the data batch by batch (3 rows per batch, for 10 batches)
