@@ -1,0 +1,14 @@
+# Updated requirements
+pandas
+librosa
+pydub
+
+SpeechRecognition
+torch
+
+transformers
+google-generativeai
+
+pronouncing
+
+IPython
