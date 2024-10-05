@@ -1,6 +1,6 @@
 # exercise-recommender-system-final
 
-How to choose a category?
+**How to choose a category?**
 As I consider previous 3 utterances each has 4 categories and each has feedback score 
 as follows
 
@@ -19,7 +19,7 @@ Grammar with 71.67
 
 
 
-Sample execution:
+**Sample execution:**
 Welcome to the Language Assessment System!
 Enter your age: 21
 Enter your country: India
@@ -29,16 +29,18 @@ Processing batch 1...
 Selected category: Grammar_Score with average score: 71.66666666666667
 Exercise for grammar
 Scraping images related to:  Interest: watching anime
- 
+ ![image](https://github.com/user-attachments/assets/3d9f27ed-16b4-4c9d-af78-0696de75e18e)
+
 Indian audiences are captivated by anime, a genre ____ often explores complex themes and compelling characters.  ____ the popularity of these shows, many viewers spend hours engrossed in the stories.
 
 Enter your answers in the form of a string (e.g., 'is, is, on'): 'on, will'
 Score: 70, Remarks: Slightly awkward phrasing
 
-I have failed here
-Retake test
+**I have failed here
+Retake test**
 Exercise for grammar
- 
+ ![image](https://github.com/user-attachments/assets/b8aab06f-68da-4f24-a5f7-11f7676aa424)
+
 An Indian anime enthusiast enjoys watching various shows.  He often reflects ____ the different styles and plots.  He believes that ____ anime can be very thought-provoking, providing insights into different cultures.
 Enter your answers in the form of a string (e.g., 'is, is, on'):    
 Score: 95, Remarks: Minor word choice improvement needed
